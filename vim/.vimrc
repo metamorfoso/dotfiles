@@ -57,6 +57,7 @@ Plug 'tomtom/tcomment_vim'
 
 " Colour schemes
 Plug 'ajmwagar/vim-deus'
+Plug 'BrainDeath0/Hypsteria'
 
 " SETTINGS
 
@@ -91,8 +92,8 @@ set autoindent		" always set autoindenting on
 " syntax on
 
 " Colour
-colorscheme deus
-set background=dark
+colorscheme hypsteria
+" set background=dark
 
 " Plugin settings
 " Syntastic
@@ -106,6 +107,10 @@ let g:syntastic_always_populate_loc_list = 1
 
 " vim-javascript
 let g:javascript_plugin_flow = 1
+
+" NERDTree
+let NERDTreeDirArrows = 1
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 " Add optional packages.
 "
