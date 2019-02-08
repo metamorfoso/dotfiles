@@ -45,10 +45,6 @@ endif
 
 " PLUGINS
 
-" Navigation
-
-Plug 'Shougo/denite.nvim'
-
 " Language
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'mxw/vim-jsx'
@@ -60,10 +56,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tomtom/tcomment_vim'
 
 " Colour schemes
-" Plug 'jacoborus/tender.vim'
-" Plug 'romainl/Apprentice'
 Plug 'ajmwagar/vim-deus'
-Plug 'junegunn/seoul256.vim'
 
 " SETTINGS
 
@@ -98,7 +91,7 @@ set autoindent		" always set autoindenting on
 " syntax on
 
 " Colour
-colorscheme seoul256
+colorscheme deus
 set background=dark
 
 " Plugin settings
