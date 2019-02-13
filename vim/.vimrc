@@ -48,6 +48,7 @@ endif
 " Language
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'mxw/vim-jsx'
+Plug 'leafgarland/typescript-vim'
 
 " Editing
 " Plug 'w0rp/ale'
@@ -58,6 +59,9 @@ Plug 'tomtom/tcomment_vim'
 " Colour schemes
 Plug 'ajmwagar/vim-deus'
 Plug 'BrainDeath0/Hypsteria'
+
+" Version control
+Plug 'tpope/vim-fugitive'
 
 " SETTINGS
 
