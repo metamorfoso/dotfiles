@@ -83,7 +83,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias gitprune="git fetch -p && git branch -vv | grep gone | awk '{ print $1 }' | xargs git branch -D"
+
+gitprune() {
+  git fetch -p 
+  for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done
+}
 
 # pyenv
 export PATH=$HOME/.pyenv/bin:$PATH
