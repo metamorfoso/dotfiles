@@ -95,6 +95,12 @@ set tabstop=2            " spaces for <Tab>
 set autoindent		" always set autoindenting on
 " syntax on
 
+" Keep search pattern at the center of the screen
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+
 " Colour
 colorscheme hypsteria
 " set background=dark
