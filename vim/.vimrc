@@ -122,6 +122,7 @@ let g:javascript_plugin_flow = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeNodeDelimiter = "\u00a0"
 map <C-b> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeFind<CR>
 
 " Add optional packages.
 "
