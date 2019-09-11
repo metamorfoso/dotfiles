@@ -51,6 +51,8 @@ Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 
 " Editing
+Plug 'tpope/vim-surround'
+
 " Plug 'w0rp/ale'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
@@ -62,6 +64,7 @@ Plug 'BrainDeath0/Hypsteria'
 
 " Version control
 Plug 'tpope/vim-fugitive'
+
 
 " SETTINGS
 
