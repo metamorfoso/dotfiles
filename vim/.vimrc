@@ -95,6 +95,12 @@ set tabstop=2            " spaces for <Tab>
 set autoindent		" always set autoindenting on
 " syntax on
 
+" Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
 " Keep search pattern at the center of the screen
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz
