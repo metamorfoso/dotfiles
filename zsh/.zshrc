@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/iii/.oh-my-zsh
+export ZSH=/Users/ivanignatov/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -90,13 +90,13 @@ git_prune_local() {
 }
 
 # pyenv
-export PATH=$HOME/.pyenv/bin:$PATH
-eval "$(pyenv init -)"
+# export PATH=$HOME/.pyenv/bin:$PATH
+# eval "$(pyenv init -)"
 
 # pyenv-virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-$HOME/.pyenv/shims/virtualenvwrapper.sh
-pyenv virtualenvwrapper
+# export WORKON_HOME=$HOME/.virtualenvs
+# $HOME/.pyenv/shims/virtualenvwrapper.sh
+# pyenv virtualenvwrapper
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
