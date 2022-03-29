@@ -108,3 +108,11 @@ git_prune_local() {
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -n "$DISPLAY" && "$TERM" = "xterm" ]] && export TERM=xterm-256color
+
+# rbenv
+eval "$(rbenv init - zsh)"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
